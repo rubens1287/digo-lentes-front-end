@@ -1,0 +1,28 @@
+:root {
+  --primaria: #58a4b0;
+  --secundaria: #373f51;
+  --secundaria-ativa: #cccccc;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+  grid-template-columns: auto;
+  grid-template-rows: 50px 100vh auto;
+  grid-template-areas: 
+    "header"
+    "conteudo"
+    "footer"
+}
+
+.cabecalho{
+  background: #373f51;
+  grid-area: cabecalho;
+}
+
+.conteudo{
+  background: #C0C0C0;
+  grid-area: conteudo;
+}
+
+.footer{
+  background: #0099ff;
+  grid-area: footer;
+}
