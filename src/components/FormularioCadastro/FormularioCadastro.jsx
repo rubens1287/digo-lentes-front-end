@@ -47,7 +47,6 @@ function FormularioCadastro({ cadastro }) {
   }
 
   return (
-    <section className="conteudo">
       <Container component="article" maxWidth="sm">
         <Typography variant="h3" component="h1" align="center">
           Solicite um orçamento
@@ -144,7 +143,6 @@ function FormularioCadastro({ cadastro }) {
           </Button>
         </form>
       </Container>
-    </section>
   );
 }
 

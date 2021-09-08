@@ -4,12 +4,12 @@
   --secundaria-ativa: #cccccc;
   --fundo: #ffffff;
   --fundo-detalhes: #ececec;
-  grid-template-columns: auto;
-  grid-template-rows: 50px 100vh auto;
   grid-template-areas: 
     "header"
     "conteudo"
-    "footer"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto;
 }
 
 .cabecalho{
