@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import { Container, Typography } from "@material-ui/core";
 import "@fontsource/roboto";
+import './estilo.css'
 
 function FormularioCadastro({ cadastro }) {
   const [nome, setNome] = useState("");
@@ -47,6 +48,7 @@ function FormularioCadastro({ cadastro }) {
   }
 
   return (
+    <section className="formulario">
       <Container component="article" maxWidth="sm">
         <Typography variant="h3" component="h1" align="center">
           Solicite um orçamento
@@ -143,6 +145,7 @@ function FormularioCadastro({ cadastro }) {
           </Button>
         </form>
       </Container>
+    </section>
   );
 }
 

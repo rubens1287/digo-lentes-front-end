@@ -13,16 +13,23 @@
 }
 
 .cabecalho{
-  background: #373f51;
+  background: #414142;
   grid-area: cabecalho;
+  padding: 0 2rem;
 }
 
 .conteudo{
-  background: #C0C0C0;
+  background: #ece9f1;
   grid-area: conteudo;
+  padding: 0 2rem;
 }
 
 .footer{
-  background: #0099ff;
+  background: #414142;
   grid-area: footer;
+  padding: 2rem 2rem;
+  color: #f5ecec;
+  font-size: .8rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
