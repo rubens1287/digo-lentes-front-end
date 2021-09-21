@@ -2,8 +2,9 @@
   --primaria: #58a4b0;
   --secundaria: #373f51;
   --secundaria-ativa: #cccccc;
-  --fundo: #ffffff;
+  --fundo: #fff!important;
   --fundo-detalhes: #ececec;
+  background: #fbfafc;
   grid-template-areas: 
     "header"
     "conteudo"
@@ -13,15 +14,12 @@
 }
 
 .cabecalho{
-  background: #414142;
-  grid-area: cabecalho;
-  padding: 0 2rem;
+  grid-area: cabecalho;  
 }
 
 .conteudo{
-  background: #ece9f1;
+  background: #f5f4f7;
   grid-area: conteudo;
-  padding: 0 2rem;
 }
 
 .footer{
@@ -29,7 +27,6 @@
   grid-area: footer;
   padding: 2rem 2rem;
   color: #f5ecec;
-  font-size: .8rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

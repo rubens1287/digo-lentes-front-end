@@ -1,0 +1,98 @@
+.w3-top{
+    top:20px;
+}
+.w3-bar .w3-button {
+    white-space: normal;
+}
+
+.w3-button:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+
+.w3-bar{
+    width:100%;
+    overflow:hidden
+}
+.w3-white,.w3-hover-white:hover{
+    color:#000!important;
+    background-color:#fff!important
+}
+.w3-wide{
+    letter-spacing:2px
+}
+.w3-padding{
+    padding:16px 16px!important
+}
+
+.w3-card,.w3-card-2{
+    height: 50px;
+    box-shadow:0 7px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%)
+}
+
+.w3-bar .w3-bar-item {
+    padding: 8px 14px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.w3-right{
+    padding-right: 50px;
+    float:right!important
+}
+
+.w3-right-align{
+    text-align:right!important
+}
+
+@media (max-width:600px){
+    .w3-modal-content{
+        margin:0 10px;
+        width:auto!important
+    }
+    .w3-modal{
+        padding-top:30px
+    }
+     .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{
+        position:relative
+    }
+     .w3-hide-small{
+        display:none!important
+    }
+    .w3-mobile{
+        display:block;
+        width:100%!important
+    }
+    .w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{
+        text-align:center
+    }
+     .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{
+        width:100%
+    }
+}
+
+.w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
