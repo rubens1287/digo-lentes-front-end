@@ -22,10 +22,10 @@ function Conteudo() {
         <img className="w3-image" src={logo} alt="Architecture" width="2000" height="500"/>
         <div className="w3-display-middle w3-margin-top w3-center">
           <h1 className="w3-xxlarge w3-text-white">
-            <span className="w3-padding w3-black w3-opacity-min">
+            <span className="w3-padding w3-black w3-opacity-min w3-animate-top">
               <b>DIGO</b>
             </span> 
-            <span className="w3-hide-small w3-text-light-grey"> LENTES</span>
+            <span className="w3-hide-small w3-text-light-grey w3-animate-top"> LENTES</span>
           </h1>
         </div>
       </header>
