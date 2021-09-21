@@ -25,7 +25,7 @@ function Conteudo() {
             <span className="w3-padding w3-black w3-opacity-min">
               <b>DIGO</b>
             </span> 
-            <span className="w3-hide-small w3-text-light-grey">LENTES</span>
+            <span className="w3-hide-small w3-text-light-grey"> LENTES</span>
           </h1>
         </div>
       </header>
